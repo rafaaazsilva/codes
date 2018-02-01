@@ -54,11 +54,11 @@
 #define LED_E2 25
 #define LED_E3 27
 #define LED_E4 29
-#define LED_fita1 31
-#define LED_fita2 33
-#define LED_lampada 35
-#define LED_ON 37
-#define LED_ilumina 39
+#define LED_fita1 44
+#define LED_fita2 45
+#define LED_lampada 46
+#define LED_ON 31
+#define LED_ilumina 33
 
 //Portas acionadoras dos equipamentos de boate utilizados no modo automatico
 #define E1 18
