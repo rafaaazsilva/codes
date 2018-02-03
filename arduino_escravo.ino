@@ -121,76 +121,76 @@ void loop()
   switch (Dados)
   {
     case '1':
-      E1, HIGH;
-      LED_E1, HIGH;
-      E2, HIGH;
-      LED_E2, HIGH;
-      E3, LOW;
-      LED_E3, LOW;
-      E4, LOW;
-      LED_E4, LOW;
+      digitalWrite(E1, HIGH);
+      digitalWrite(LED_E1, HIGH);
+      digitalWrite(E2, HIGH);
+      digitalWrite(LED_E2, HIGH);
+      digitalWrite(E3, LOW);
+      digitalWrite(LED_E3, LOW);
+      digitalWrite(E4, LOW);
+      digitalWrite(LED_E4, LOW);
       break;
       
     case '2':
-      E1, LOW;
-      LED_E1, LOW;
-      E2, LOW;
-      LED_E2, LOW;
-      E3, HIGH;
-      LED_E3, HIGH;
-      E4, HIGH;
-      LED_E4, HIGH;
+      digitalWrite(E1, LOW);
+      digitalWrite(LED_E1, LOW);
+      digitalWrite(E2, LOW);
+      digitalWrite(LED_E2, LOW);
+      digitalWrite(E3, HIGH);
+      digitalWrite(LED_E3, HIGH);
+      digitalWrite(E4, HIGH);
+      digitalWrite(LED_E4, HIGH);
       break;
       
     case '3':
-      E1, HIGH;
-      LED_E1, HIGH;
-      E2, LOW;
-      LED_E2, LOW;
-      E3, HIGH;
-      LED_E3, HIGH;
-      E4, LOW;
-      LED_E4, LOW;
+      digitalWrite(E1, HIGH);
+      digitalWrite(LED_E1, HIGH);
+      digitalWrite(E2, LOW);
+      digitalWrite(LED_E2, LOW);
+      digitalWrite(E3, HIGH);
+      digitalWrite(LED_E3, HIGH);
+      digitalWrite(E4, LOW);
+      digitalWrite(LED_E4, LOW);
       break;
 
     case '4':
-      E1, HIGH;
-      LED_E1, HIGH;
-      E2, HIGH;
-      LED_E2, HIGH;
-      E3, LOW;
-      LED_E3, LOW;
-      E4, HIGH;
-      LED_E4, HIGH;
+      digitalWrite(E1, HIGH);
+      digitalWrite(LED_E1, HIGH);
+      digitalWrite(E2, HIGH);
+      digitalWrite(LED_E2, HIGH);
+      digitalWrite(E3, LOW);
+      digitalWrite(LED_E3, LOW);
+      digitalWrite(E4, HIGH);
+      digitalWrite(LED_E4, HIGH);
       break;
 
     case '5':
-      E1, HIGH;
-      LED_E1, HIGH;
-      E2, HIGH;
-      LED_E2, HIGH;
-      E3, HIGH;
-      LED_E3, HIGH;
-      E4, HIGH;
-      LED_E4, HIGH;
+      digitalWrite(E1, HIGH);
+      digitalWrite(LED_E1, HIGH);
+      digitalWrite(E2, HIGH);
+      digitalWrite(LED_E2, HIGH);
+      digitalWrite(E3, HIGH);
+      digitalWrite(LED_E3, HIGH);
+      digitalWrite(E4, HIGH);
+      digitalWrite(LED_E4, HIGH);
       break;
 
     case '6':
       analogWrite(Fita1, 128);
-      LED_Fita1, HIGH;
+      digitalWrite(LED_Fita1, HIGH);
       analogWrite(Fita2, 128);
-      LED_Fita2, HIGH;
-      Lampada, LOW;
-      LED_Lampada, LOW;
+      digitalWrite(LED_Fita2, HIGH);
+      digitalWrite(Lampada, LOW);
+      digitalWrite(LED_Lampada, LOW);
       break;
 
     case '7':
-      Fita1, LOW;
-      LED_Fita1, LOW;
-      Fita2, LOW;
-      LED_Fita2, LOW;
-      Lampada, HIGH;
-      LED_Lampada, HIGH;
+      digitalWrite(Fita1, LOW);
+      digitalWrite(LED_Fita1, LOW);
+      digitalWrite(Fita2, LOW);
+      digitalWrite(LED_Fita2, LOW);
+      digitalWrite(Lampada, HIGH);
+      digitalWrite(LED_Lampada, HIGH);
       break;
   }
 }
